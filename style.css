@@ -30,6 +30,18 @@ header {
     text-align: right;
 }
 
+.logo {
+    /*position*/
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    /*b*/
+    width: 150px;
+    height: 24px;
+    /*v*/
+    background-image: url("./assets/logo.svg");
+}
+
 .first-menu__items {
     /*box model*/
     display: inline-block;

@@ -1,0 +1,9 @@
+
+.about__info {
+    /*box model*/
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px;
+}
