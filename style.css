@@ -141,18 +141,26 @@ header {
 .projects-container h2 {
     font-size: 4rem;
     text-align: center;
-
     /*box model*/
     padding-top: 30px;
 }
 
-/*IMG*/
+/*projects*/
 .projects__imgs {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    gap: 10px;
+    margin: 10px;
 }
+
+/*project batatabit*/
+.projects__imgs h3 {
+    font-size: 2.5rem;
+    /*t*/
+    text-align: center;
+}
+
 
 .projects__imgs div {
     /*bmodel*/
@@ -163,19 +171,11 @@ header {
     /*visual*/
     background-image: url("./img/proyecto-batatabit.png");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     
 }
 
-.projects-container img {
-    /*box model*/
-    margin: 0 auto;
-    max-width: 300px;
-    height: auto;
-}
-
 /*FOOTER*/
-
 footer {
     height: 100vh;
 }

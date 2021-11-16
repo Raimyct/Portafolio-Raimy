@@ -7,3 +7,11 @@
     gap: 30px;
     margin: 10px;
 }
+
+/*projects*/
+.projects__imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
