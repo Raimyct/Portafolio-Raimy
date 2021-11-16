@@ -1,3 +1,32 @@
+    /*MENUS*/
+
+/*first menu*/
+.first-menu {
+    /*position*/
+    position: fixed;
+    /*box model*/
+    display: block;
+    width: 100%;
+    z-index: 1;
+    /*visual*/
+    background-color: gray;
+    /*t*/
+    text-align: right;
+}
+
+/*second menu*/
+.second-menu {
+    /*position*/
+    position: fixed;
+    /*t*/
+    text-align: right;
+    /*b*/
+    width: 100%;
+    display: none;
+    /*v*/
+    background-color: gray;
+}
+
 .projects__imgs {
     display: flex;
     flex-direction: row;
