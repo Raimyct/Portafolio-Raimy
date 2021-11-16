@@ -1,0 +1,135 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+        /*HEADER*/
+
+header {
+    height: 100vh;
+} 
+
+    /*MENU*/
+.main-menu {
+    /*position*/
+    position: fixed;
+    /*box model*/
+    width: 100%;
+    z-index: 1;
+    /*visual*/
+    background-color: gray;
+}
+
+.main-menu__items {
+    /*box model*/
+    display: inline-block;
+    /*text*/
+    font-size: 2.5rem;
+}
+
+    /*START*/
+
+.main-container {
+    /*box model*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
+}
+
+/*img*/
+.main__img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.main-container h1 {
+    /*text*/
+    font-size: 4.5rem;
+    text-align: center;
+
+    /*visual*/
+    color: white;
+}
+
+            /*MAIN*/
+
+        /*SECTION "SOBRE MI"*/
+.about-container {
+    height: auto;
+}
+
+/*title of section "sobre mí"*/
+.about-container h2 {
+    /*box model*/
+    padding-top: 40px;
+
+    /*text*/
+    text-align: center;
+    font-size: 4rem;
+}
+
+/*info "sobre mí*/
+.about__info {
+    /*box model*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px;
+}
+
+.about__info img {
+    /*box model*/
+    max-width: 273.33px;
+    margin: 0 auto;
+}
+
+.about__info p {
+    /*text*/
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+.about__info h3 {
+    /*text*/
+    text-align: center;
+    font-size: 3rem;
+}
+
+                    /*PROJECTS*/
+
+.projects-container h2 {
+    font-size: 4rem;
+    text-align: center;
+
+    /*box model*/
+    padding-top: 30px;
+}
+
+/*IMG*/
+.projects__imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.projects-container img {
+    /*box model*/
+    margin: 0 auto;
+    max-width: 300px;
+    height: auto;
+}
+
+/*FOOTER*/
+footer h2 {
+    /*text*/
+    font-size: 4rem;
+    text-align: center;
+    text-align: none;
+}
