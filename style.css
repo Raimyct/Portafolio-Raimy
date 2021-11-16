@@ -5,6 +5,7 @@ html {
 body {
     background-color: black;
     color: white;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
         /*HEADER*/
@@ -22,11 +23,14 @@ header {
     z-index: 1;
     /*visual*/
     background-color: gray;
+    /*t*/
+    text-align: right;
 }
 
 .main-menu__items {
     /*box model*/
     display: inline-block;
+    padding: 0 10px;
     /*text*/
     font-size: 2.5rem;
 }
@@ -91,6 +95,9 @@ header {
 }
 
 .about__info p {
+    /*bm*/
+    max-width: 800px;
+    margin: 0 auto;
     /*text*/
     font-size: 2.5rem;
     text-align: justify;
@@ -116,7 +123,21 @@ header {
 .projects__imgs {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.projects__imgs div {
+    /*bmodel*/
+    max-width: 800px;
+    width: 300px;
+    height: 85vh;
+    margin: 0 auto;
+    /*visual*/
+    background-image: url("./img/proyecto-batatabit.png");
+    background-size: cover;
+    background-position: center;
+    
 }
 
 .projects-container img {
@@ -127,6 +148,11 @@ header {
 }
 
 /*FOOTER*/
+
+footer {
+    height: 100vh;
+}
+
 footer h2 {
     /*text*/
     font-size: 4rem;
