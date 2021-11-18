@@ -17,6 +17,18 @@ header {
     /*MENUS*/
 
 /*first menu*/
+.logo {
+    /*position*/
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    /*b*/
+    width: 150px;
+    height: 24px;
+    /*v*/
+    background-image: url("./assets/logo.svg");
+}
+
 .first-menu {
     /*position*/
     position: fixed;
@@ -28,18 +40,6 @@ header {
     background-color: gray;
     /*t*/
     text-align: right;
-}
-
-.logo {
-    /*position*/
-    position: absolute;
-    left: 10px;
-    top: 2px;
-    /*b*/
-    width: 150px;
-    height: 24px;
-    /*v*/
-    background-image: url("./assets/logo.svg");
 }
 
 .first-menu__items {
@@ -61,6 +61,11 @@ header {
     display: block;
     /*v*/
     background-color: gray;
+}
+
+.second-menu i {
+    font-size: 30px;
+    padding-right: 5px;
 }
 
     /*START*/
@@ -143,7 +148,7 @@ header {
     margin: 0 auto;
 }
 
-.about-container i {
+.abilities-container i {
     font-size: 6rem;
 }
 
